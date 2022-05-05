@@ -1,0 +1,83 @@
+body {
+	background: black;
+	font-family: "Comic Neue", cursive;
+	font-family: "Dosis", sans-serif;
+}
+
+.postcard {
+	background-color: white;
+	width: 430px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.postcard-header {
+	display: flex;
+	margin-top: 15px;
+}
+
+h1 {
+	width: 350px;
+	margin: 0;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+img {
+	width: 55px;
+	height: 55px;
+	margin-right: 8px;
+}
+
+.postcard-body {
+	display: flex;
+	margin-left: 6px;
+	margin-top: 10px;
+}
+
+.body-left,
+.body-right {
+	padding: 2px;
+}
+
+.body-right {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+p {
+	font-size: 17px;
+	margin: 4px;
+	text-align: justify;
+}
+
+.top-spacing {
+	margin-top: 20px;
+}
+
+.postcard-footer {
+	text-align: center;
+	position: relative;
+	bottom: 5px;
+}
+
+input {
+	border: none;
+	color: grey;
+	font-size: 15px;
+	border-bottom: 1px solid;
+	padding: 5px;
+}
+
+button {
+	background-color: lightgrey;
+	margin-top: 15px;
+	border: none;
+	border-bottom: 0.5px solid;
+	border-color: grey;
+	padding: 3px;
+}
